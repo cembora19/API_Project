@@ -1,0 +1,41 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# SQLite DB
+*.db
+
+# Logs
+*.log
+*.tlog
+
+# NuGet
+*.nupkg
+packages/
+project.lock.json
+*.nuspec
+
+# ASP.NET Core runtime
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Others
+*.DS_Store
+*.bak
+*.backup
