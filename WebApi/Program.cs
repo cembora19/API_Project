@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using WebApi.Repositories;
+using Repositories.EFCore;
+using WebApi.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,10 +9,7 @@ builder.Services.AddControllers()
     .AddNewtonsoftJson();
 
 // DbContext
-builder.Services.AddDbContext<RepositoryContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
-
+builder.Services.ConfigureSqlContext(builder.Configuration);
 // Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
