@@ -1,2 +1,6 @@
 2025-10-10 13:23:18.1123 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
 2025-10-10 13:23:18.1392 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: allfile
+2025-10-10 14:28:39.6608 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2025-10-10 14:28:39.7022 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: allfile
+2025-10-10 14:29:37.5790 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Target 'logfile' not found for logging rule: *.
+2025-10-10 14:29:37.6574 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: allfile
