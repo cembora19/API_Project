@@ -4,9 +4,12 @@ using WebApi.Extensions;
 using Services;
 using Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
+using NLog;
 
 
 var builder = WebApplication.CreateBuilder(args);
+
+LogManager.Setup().LoadConfigurationFromFile(Path.Combine(Directory.GetCurrentDirectory(), "nlog.config"));
 
 // Add services to the container
 builder.Services.AddControllers()
@@ -17,6 +20,7 @@ builder.Services.AddControllers()
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
 builder.Services.ConfigureServiceManager();
+builder.Services.ConfigureLoggerService();
 // Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
