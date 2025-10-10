@@ -72,7 +72,7 @@ namespace Presentation.Controllers
 
             bookPatch.ApplyTo(entity);
             _manager.BookService.UpdateOneBook(id,
-            new BookDtoForUpdate(entity.Id, entity.Title, entity.Price),
+            new BookDtoForUpdate(entity.Id,entity.Title,entity.Price),
             true);
 
             return NoContent(); //204
