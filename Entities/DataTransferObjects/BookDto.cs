@@ -6,5 +6,4 @@ namespace Entities.DataTransferObjects
         public String? Title { get; set; }
         public decimal Price { get; set; }
     }
-
 }

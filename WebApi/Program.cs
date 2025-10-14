@@ -22,6 +22,11 @@ builder.Services.AddControllers(config =>
     .AddApplicationPart(typeof(Presentation.AssemblyRefence).Assembly)
     .AddNewtonsoftJson();
 
+builder.Services.Configure<ApiBehaviorOptions>(options =>
+{
+    options.SuppressModelStateInvalidFilter = true;
+});
+
 // DbContext
 builder.Services.ConfigureSqlContext(builder.Configuration);
 builder.Services.ConfigureRepositoryManager();
