@@ -6,3 +6,23 @@
 2025-10-15 15:00:48.1829 Info Registered target NLog.Targets.FileTarget(Name=logfile)
 2025-10-15 15:00:48.2045 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
 2025-10-15 15:00:48.2504 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=C:\Users\cembora\Desktop\Projects\API_Project\bsStoreApp\WebApi\nlog.config
+2025-10-15 17:31:03.6675 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-10-15 17:31:03.6863 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
+2025-10-15 17:31:03.7104 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=C:\Users\cembora\Desktop\Projects\API_Project\bsStoreApp\WebApi\nlog.config
+2025-10-15 17:41:47.5302 Info AppDomain Shutting down. LogFactory closing...
+2025-10-15 17:41:47.5389 Info LogFactory has been disposed.
+2025-10-15 18:04:40.2703 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-10-15 18:04:40.2925 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
+2025-10-15 18:04:40.3337 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=C:\Users\cembora\Desktop\Projects\API_Project\bsStoreApp\WebApi\nlog.config
+2025-10-15 18:14:52.0858 Info AppDomain Shutting down. LogFactory closing...
+2025-10-15 18:14:52.0858 Info LogFactory has been disposed.
+2025-10-15 18:15:15.6698 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-10-15 18:15:15.6888 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
+2025-10-15 18:15:15.7225 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=C:\Users\cembora\Desktop\Projects\API_Project\bsStoreApp\WebApi\nlog.config
+2025-10-15 19:04:50.4929 Info AppDomain Shutting down. LogFactory closing...
+2025-10-15 19:04:50.5296 Info LogFactory has been disposed.
+2025-10-15 19:54:22.2838 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2025-10-15 19:54:22.3115 Info NLog, Version=6.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 6.0.5.4631. Product version: 6.0.5+a023270f66a9445456a70c06668acabe7179c723. GlobalAssemblyCache: False
+2025-10-15 19:54:22.3604 Info Configuration initialized: TargetNames=logfile, ConfigItems=12, AutoReload=true, FilePath=C:\Users\cembora\Desktop\Projects\API_Project\bsStoreApp\WebApi\nlog.config
+2025-10-15 20:02:58.4283 Info AppDomain Shutting down. LogFactory closing...
+2025-10-15 20:02:58.4283 Info LogFactory has been disposed.

@@ -39,6 +39,7 @@ builder.Services.ConfigureActionFilters();
 // Swagger / OpenAPI
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.ConfigureCors();
 
 // Authorization (isteğe bağlı, auth kullanacaksan)
 builder.Services.AddAuthorization();
@@ -61,6 +62,7 @@ if (app.Environment.IsProduction())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();
