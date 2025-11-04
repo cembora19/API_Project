@@ -40,6 +40,7 @@ builder.Services.ConfigureActionFilters();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureCors();
+builder.Services.ConfigureDataShapper();
 
 // Authorization (isteğe bağlı, auth kullanacaksan)
 builder.Services.AddAuthorization();
